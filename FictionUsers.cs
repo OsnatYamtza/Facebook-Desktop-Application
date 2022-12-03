@@ -34,9 +34,10 @@ namespace ApplicationLogic
             City = i_City;
         }
         
-        public FictionUsers(string i_Name)
+        public FictionUsers(string i_Name, string i_BirthMonth)
         {
             Name = i_Name;
+            BirthMonth = i_BirthMonth;
         }
     }
 }
